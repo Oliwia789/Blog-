@@ -116,14 +116,12 @@ footer button {
 }
 
 .articles-container {
-    display: flex;
-    justify-content: space-around;
     padding: 0 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
 }
 
-.article {
-    width: 25%;
-}
 
 .title-articles {
     text-align: center;
@@ -227,5 +225,38 @@ footer button {
 }
 
 .com-text {
+    font-family: 'Lora', serif; 
+}
+
+.com-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+    margin-bottom: 80px; 
+    align-items: center;
+    font-family: 'Lora', serif; 
+}
+
+.com-input {
+    margin: 1%;
+    background: #f5f5f5;
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    color: #b7b7b7;
+    font-style: italic;
+    font-size: 15px;
+    width: 100%;
+    font-family: 'Lora', serif; 
+    resize: none;
+}
+
+.com-btn {
+    width: 15%;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    background: none;
+    font-size: 17px;
     font-family: 'Lora', serif; 
 }

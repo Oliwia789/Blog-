@@ -64,3 +64,12 @@ function getComments($id)
 
     return $commentaire;
 }
+
+function addComment(string $auteur, string $commentaire, $date_commentaire, $billet_id)
+{
+    $pdo = getConnexion();
+
+    $query = $pdo->prepare("INSERT INTO commentaires SET auteur = ?, commentaire = ?, date_commentaire = ?, billet_id = ?");
+
+    $query->execute([$auteur, $commentaire, $date_commentaire, $billet_id]);
+}
