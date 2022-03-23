@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Nunito+Sans:wght@300;400&display=swap');
+
+*{
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    margin-top: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-logo {
+    height: 20px;
+}
+
+.nav-list {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.search-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+h1 {
+    font-family: 'Lora', serif; 
+}
+
+.active {
+    font-weight: bold;
+}
+
+.footer-img {
+    height: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    padding: 0 5%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+footer h2 {
+    font-family: 'Lora', serif;
+}
+
+footer input {
+    border: none;
+    text-transform: uppercase;
+}
+
+footer button {
+    border: none;
+    background: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.social {
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-container {
+    height: 220px;
+    width: 100%;
+}
+
+.img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    height: 450px;
+    background: url(../assets/main.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 20px;
+}
+
+.main-title {
+    font-family: 'Lora', serif;
+    text-align: center;
+    padding-top: 180px;
+    font-size: 125px;
+    margin: 0;
+    color: white;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5%;
+}
+
+.article {
+    width: 25%;
+}
+
+.title-articles {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+}
+
+.date {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Nunito Sans', sans-serif; 
+    color: gray;
+}
+
+.article-title {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+}
+
+.article-text {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+.article-link {
+    font-weight: bold;
+}
+
+.single-img-container {
+    height: 500px;
+    width: 100%;
+}
+
+.single-img-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.single-container {
+    padding: 2% 20%;
+}
+
+.single-title {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}
+
+.single-date {
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif; 
+    color: gray;
+}
+
+.single-text {
+    padding: 0 10%;
+    line-height: 25px;
+    margin-top: 50px;
+    font-family: 'Lora', serif;
+}
+
+.com-title {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
+
+.com-hr {
+    width: 75%;
+    margin-bottom: 25px;
+}
+
+.com-container {
+    padding: 0 15%;
+}
+
+.com-info {
+    display: flex;
+    align-items: center;
+}
+
+.com-auteur {
+    margin-right: 5%;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.single-com {
+    margin-bottom: 25px;
+}
+
+.com-date {
+    font-family: 'Nunito Sans', sans-serif; 
+    color: gray;
+}
+
+.com-text {
+    font-family: 'Lora', serif; 
+}
