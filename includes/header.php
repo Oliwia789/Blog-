@@ -6,7 +6,7 @@
             <li><a href="#" id="linkContact">Contact</a></li>
         </ul>
         <div>
-            <a href="compte.php"><img class="user-img" src="./assets/user-regular.svg" alt="compte utilisateur"></a>
+            <a href="compte.php"><img class="user-img" src="./assets/user-regular.svg" alt="compte utilisateur" /></a>
         </div>
     </nav>
 </header>

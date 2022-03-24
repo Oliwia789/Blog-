@@ -1,7 +1,7 @@
 <footer>
     <h2>Mon Blog</h2>
     <form method="post">
-        <input type="email" name="email" id="email" placeholder="&#10145; Votre email">
+        <input type="email" name="email-user" id="email-user" placeholder="&#10145; Votre email">
         <button type="submit">S'abonner</button>
         <hr>
     </form>

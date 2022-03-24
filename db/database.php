@@ -73,3 +73,26 @@ function addComment(string $auteur, string $commentaire, $date_commentaire, $bil
 
     $query->execute([$auteur, $commentaire, $date_commentaire, $billet_id]);
 }
+
+function addUser(string $NomUser, string $PrenomUser, string $EmailUser, string $MdpUser)
+{
+    $pdo = getConnexion();
+
+    $query = $pdo->prepare("INSERT INTO utilisateur SET NomUser = ?, PrenomUser = ?, EmailUser = ?, MdpUser = ?");
+
+    $query->execute([$NomUser, $PrenomUser, $EmailUser, $MdpUser]);
+}
+
+function getUser($EmailUser)
+{
+    $pdo = getConnexion();
+    $query = $pdo->prepare("SELECT * FROM utilisateur WHERE EmailUser = ?");
+    $query->execute([$EmailUser]);
+    $user = $query->fetch();
+
+    if (!$user) {
+        return null;
+    }
+
+    return $user;
+}

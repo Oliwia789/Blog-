@@ -265,3 +265,39 @@ footer button {
     height: 30px;
     object-fit: cover;
 }
+
+.connect-title {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.link-newUser {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Lora', serif; 
+}
+
+.error {
+    text-align: center;
+    margin-bottom: 50px;
+    color: red;
+    font-family: 'Lora', serif; 
+}
+
+.connect {
+    text-align: center;
+    margin-bottom: 50px;
+    color: green;
+    font-family: 'Lora', serif;
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logout-btn {
+    width: auto !important;
+}
