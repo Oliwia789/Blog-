@@ -5,9 +5,8 @@
             <li><a href="index.php" id="linkHome">Accueil</a></li>
             <li><a href="#" id="linkContact">Contact</a></li>
         </ul>
-        <form method="post">
-            <input type="search" name="search" id="title" placeholder="Recherche">
-            <button type="submit" class="search-btn"><img class="search-logo" src="./assets/search.png" alt="recherche"></button>
-        </form>
+        <div>
+            <a href="compte.php"><img class="user-img" src="./assets/user-regular.svg" alt="compte utilisateur"></a>
+        </div>
     </nav>
 </header>
